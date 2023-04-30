@@ -1,13 +1,12 @@
 import React from "react";
+import footer from '../assets/images/footer-img.png'
 
 function Footer() {
-  const footerStyle = {
-    backgroundImage: "url(src/assets/images/footer-img.png)",
-  };
-
   return (
-    <footer style={footerStyle}>
-      <div className="h-screen ">
+    <footer  style={{
+      backgroundImage: `url(${footer})`
+    }}>
+      <div className="h-screen " >
         <div className=" h-[50%] flex items-center justify-center font-semibold text-[50px] text-white">
           <h2>Where Tradition meets Fashion</h2>
         </div>
